@@ -1,0 +1,12 @@
+
+
+server {
+
+    listen 80;
+
+  location /hello {
+      proxy_pass http://app:8080/hello-world;
+  }
+
+  }
+
