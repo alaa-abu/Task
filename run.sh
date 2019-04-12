@@ -29,7 +29,7 @@ This script will do the following: \n
 -Build the Java application using maven  \n
 -Build the docker file for the dropwizard application \n
 -Run the docker-compose file that is configured to start both the containerized app and Nginx as a reverse proxy
--Please note Nginx will be using port 80 on the host machine, the application dropwizard will not be published to the host machine \n"
+-Please note Nginx will be using port 80 on the host machine, the dropwizard application ports will not be published to the host machine \n"
 
 Confirmation
 
